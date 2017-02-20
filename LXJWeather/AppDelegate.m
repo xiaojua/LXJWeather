@@ -43,6 +43,8 @@
     self.window.rootViewController = sideMenu;
     [self.window makeKeyAndVisible];
     
+    //启动页停留2s
+    [NSThread sleepForTimeInterval:2.0];
     
     return YES;
 }
